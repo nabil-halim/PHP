@@ -24,7 +24,7 @@ echo $row['kategori'];
 <?php
 
 if (isset($_POST['simpan'])) {
-    $kategori = $_POST['kategori'];
+    $kategoti = $_POST['kategori'];
 
     $sql = "UPDATE tblkategori SET kategori='$kategoti' WHERE idkategori= $id";
 
